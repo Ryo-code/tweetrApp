@@ -1,0 +1,43 @@
+main {
+  background-color: white;
+  padding: 140px 40px 40px 40px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.new-tweet {
+  background-color: #eee;
+  border-radius: 5px;
+  display:block;
+  border:1px solid grey;
+  padding: 0px 10px 10px 10px;
+}
+
+.new-tweet h2 {
+  display:block;
+  border-bottom:1px solid black;
+  margin: 14px 0px;
+}
+
+textarea {
+  width: 345px;
+}
+
+span {
+    float: right;
+    padding-right: 5px;
+}
+
+.tooManyChars {
+  color: red;
+}
+
+.flash-message {
+  background-color: #fccfcf;
+  color: red;
+  opacity: 0;
+}
+
+.flash-msg-appear {
+    opacity: 0.7;
+}
