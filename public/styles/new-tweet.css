@@ -1,7 +1,7 @@
 main {
   background-color: white;
   padding: 140px 40px 40px 40px;
-  width: 450px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -16,16 +16,21 @@ main {
 .new-tweet h2 {
   display:block;
   border-bottom:1px solid black;
-  margin: 14px 0px;
+  margin: 0px 10px 7px 10px;
 }
 
 textarea {
-  width: 345px;
+  width: 100%; /* So it's got a width of 100% of its parent div */
 }
 
-span {
+span.counter {
     float: right;
-    padding-right: 5px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.counter{
+  font-size: .7em;
 }
 
 .tooManyChars {
