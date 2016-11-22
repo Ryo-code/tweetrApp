@@ -70,7 +70,7 @@ $(document).ready(function() {
     var text = $('textarea').val();
     console.log('Text: ', text, 'text length = ', text.length);
 
-    if (text === null || text === "" || text.length > 140) {
+    if (text.trim() === "" || text.length > 140) {
       console.log("Fail...");
       $('main div').addClass("flash-msg-appear");
 
